@@ -1,0 +1,11 @@
+CREATE OR REPLACE TRIGGER trigger4 BEFORE INSERT ON RESULTAT FOR EACH ROW
+
+DECLARE
+	de EXAMEN.dateExame%type;
+	di INSCRIPTION.dateInsc%type;
+BEGIN
+	SELECT dateExam INTO de FROM EXAMEN WHERE codexam = :NEW.codexam;
+	SELECT dateInsc INTO di FROM INSCRIPTION WHERE codmod = :NEW.codmod;
+	IF dateExam 
+END;
+/
