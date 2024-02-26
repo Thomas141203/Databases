@@ -17,3 +17,4 @@ INSERT INTO Employe VALUES(7499, 'Martin', 'Adam', 'Vendeur', 7698, TO_DATE('20-
 INSERT INTO Employe VALUES(7521, 'Dupuy', 'Maurice', 'Vendeur', 7839, TO_DATE('22-sep-80', 'DD-MON-YY'), 7000.00, 500.00, 30);
 INSERT INTO Employe VALUES(7654, 'Martin', 'Bernard', 'Vendeur', 7698, TO_DATE('28-sep-81', 'DD-MON-YY'), 1250.00, 1400.00, 30);
 INSERT INTO Employe VALUES(7900, 'Sibille', 'Lionel', 'Vendeur', 7698, TO_DATE('03-dec-81', 'DD-MON-YY'), 950.00, NULL, 30);
+
