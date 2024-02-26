@@ -22,3 +22,4 @@ BEGIN
 --Ecrire l'insertion dans la table Employe
 INSERT INTO Employe VALUES(:NEW.EmpNo,...,:NEW.SalaireFranc/6.55957,...);
 END;
+
