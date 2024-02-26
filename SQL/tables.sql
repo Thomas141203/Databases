@@ -19,3 +19,4 @@ CREATE TABLE Employe(
 	SerNo INTEGER CONSTRAINT fk_Employe_Service REFERENCES Service(SerNo) ON DELETE CASCADE,	
 	CONSTRAINT contrainteMemePersonne UNIQUE(Nom, Prenom)
 );
+
